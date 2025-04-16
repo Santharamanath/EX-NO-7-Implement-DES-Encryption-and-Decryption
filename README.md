@@ -12,7 +12,7 @@ To use the Data Encryption Standard (DES) algorithm for a practical application,
 4. DES applies initial and final permutations along with 16 rounds of substitution and permutation transformations to produce ciphertext.
 
 ## Program:
-'''
+```
 #include <stdio.h>
 #include <string.h>
 void encrypt(char *message, char *key, char *encryptedMessage, int messageLength) {
@@ -58,7 +58,7 @@ int main() {
     return 0;
 }
 
-'''
+```
 
 
 ## Output:
